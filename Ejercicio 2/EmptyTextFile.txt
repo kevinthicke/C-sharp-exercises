@@ -18,12 +18,5 @@ Crear una clase _Shape_ que tenga las propiedades privadas _height_,
  Draw a triangle with dimensions 1.3x5.6
  ...
  ```
-### Ejercicio 2
 
-Modificar el ejercicio 1 eliminando la enumeración ShapeTypes y crear dos clases hijas de _Shape_: _Circle_ y _Rectángle_. Añadir un método _Draw()_ en la clase _Shape_ y sus hijas que muestre por consola:
- ```
- Draw a circle with dimensions 1.2x2.4
- Draw a triangle with dimensions 1.3x5.6
- ...
- ```
- Modificar el método _DrawShapes_ de la clase _Canvas_ para que llame a cada uno de los métodos _Draw()_ de shape y de sus clases hija.
+ Construir una clase _Utils_ que tenga un método _getArea_ que tenga como parámetros una variable de tipo _shape_ y le devuelva su perímetro.
